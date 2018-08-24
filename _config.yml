@@ -397,12 +397,12 @@ wildfire:
   # database config
   databaseProvider: firebase # or wilddog
   firebase: # your firebase config goes here ↓
-    apiKey: AIzaSyDQXH17R_o4_Bw_bdsbaPJtXwJcL0hgIIg
-    authDomain: iseex-new.firebaseapp.com
-    databaseURL: https://iseex-new.firebaseio.com
-    projectId: iseex-new
-    storageBucket: iseex-new.appspot.com
-    messagingSenderId: 600959740158
+    apiKey: AIzaSyA962a46AZyKFhyhEvBy3L2sjaNmwN5a2Q
+    authDomain: chengkang-me.firebaseapp.com
+    databaseURL: https://chengkang-me.firebaseio.com
+    projectId: chengkang-me
+    storageBucket: chengkang-me.appspot.com
+    messagingSenderId: 1040071529318
   wilddog: # your wilddog config goes here ↓
     siteId:
   # other configs
