@@ -389,7 +389,7 @@ disqus:
 
 # <wildfire>
 wildfire:
-  enable: false
+  enable: true
   # version - It's recommended to use the following versions.
   loaderVersion: 1.2.5 # https://www.npmjs.com/package/wildfire-comment
   useDev: true
@@ -397,18 +397,18 @@ wildfire:
   # database config
   databaseProvider: firebase # or wilddog
   firebase: # your firebase config goes here ↓
-    apiKey: 
-    authDomain:
-    databaseURL:
-    projectId:
-    storageBucket:
-    messagingSenderId:
+    apiKey: AIzaSyDtQbAuTxqw_TTVHDddj17ivTB_tbYIgxI
+    authDomain: iseex-cec72.firebaseapp.com
+    databaseURL: https://iseex-cec72.firebaseio.com
+    projectId: iseex-cec72
+    storageBucket: iseex-cec72.appspot.com
+    messagingSenderId: 212392288509
   wilddog: # your wilddog config goes here ↓
     siteId:
   # other configs
   theme: light # or dark
   locale: en # or other locales, e.g. zh-CN
-  defaultAvatarURL: 
+  defaultAvatarURL: https://github.com/iseex/iseex.github.io/blob/master/assets/images/avatar.gif
 # Any question? 
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
 # </wildfire>
