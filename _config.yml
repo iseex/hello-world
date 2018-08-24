@@ -397,18 +397,18 @@ wildfire:
   # database config
   databaseProvider: firebase # or wilddog
   firebase: # your firebase config goes here ↓
-    apiKey: AIzaSyDtQbAuTxqw_TTVHDddj17ivTB_tbYIgxI
-    authDomain: iseex-cec72.firebaseapp.com
-    databaseURL: https://iseex-cec72.firebaseio.com
-    projectId: iseex-cec72
-    storageBucket: iseex-cec72.appspot.com
-    messagingSenderId: 212392288509
+    apiKey: AIzaSyDQXH17R_o4_Bw_bdsbaPJtXwJcL0hgIIg
+    authDomain: iseex-new.firebaseapp.com
+    databaseURL: https://iseex-new.firebaseio.com
+    projectId: iseex-new
+    storageBucket: iseex-new.appspot.com
+    messagingSenderId: 600959740158
   wilddog: # your wilddog config goes here ↓
     siteId:
   # other configs
   theme: light # or dark
   locale: en # or other locales, e.g. zh-CN
-  defaultAvatarURL: https://github.com/iseex/iseex.github.io/blob/master/assets/images/avatar.gif
+  defaultAvatarURL: https://s1.ax1x.com/2018/08/24/P7fTdf.jpg
 # Any question? 
 # Raise an issue here: https://github.com/cheng-kang/wildfire/issues
 # </wildfire>
