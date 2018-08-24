@@ -406,7 +406,7 @@ wildfire:
   wilddog: # your wilddog config goes here ↓
     siteId:
   # other configs
-  theme: dark # or dark
+  theme: light # light or dark
   locale: zh-CN # or other locales, e.g. zh-CN
   defaultAvatarURL: https://s1.ax1x.com/2018/08/24/P7fTdf.jpg
 # Any question? 
