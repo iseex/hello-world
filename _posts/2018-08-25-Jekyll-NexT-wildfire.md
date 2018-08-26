@@ -68,7 +68,7 @@ wildfire:
 
 进入`_includes/_macro/post.html`，在下面位置添加代码。
 
-```html
+```
                         data-disqus-identifier="{{ post.url }}" itemprop="commentCount"></span>
                  </a>
                </span>
@@ -79,7 +79,7 @@ wildfire:
 
 添加代码后如下：
 
-```html
+```
                         data-disqus-identifier="{{ post.url }}" itemprop="commentCount"></span>
                  </a>
                </span>
@@ -100,7 +100,7 @@ wildfire:
 
 进入`_includes/_partials/comments.html`，添加wildfire使能判断，比如以下位置：
 
-```html
+```
       <div id="lv-container" data-id="city" data-uid="{{ site.livere_uid }}"></div>
      {% elsif site.changyan.appid and site.changyan.appkey %}
        <div id="SOHUCS"></div>
@@ -112,7 +112,7 @@ wildfire:
 
 添加如下代码：
 
-```html
+```
       <div id="lv-container" data-id="city" data-uid="{{ site.livere_uid }}"></div>
      {% elsif site.changyan.appid and site.changyan.appkey %}
        <div id="SOHUCS"></div>
@@ -131,7 +131,7 @@ wildfire:
 
 新建文件`_includes/_third-party/comments/wildfire.html`，添加代码：
 
-```html
+```
 {% if site.wildfire.enable %}
   <script type="text/javascript">
     var wildfireConfig = () => ({
